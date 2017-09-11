@@ -1,0 +1,137 @@
+{
+  "getNewsList": [{
+      "id": 1,
+      "title": "新闻条目1新闻条目1新闻条目1新闻条目1",
+      "url": "http://starcraft.com"
+    },
+    {
+      "id": 2,
+      "title": "新闻条目2新闻条目2新闻条目2新闻条目2",
+      "url": "http://warcraft.com"
+    },
+    {
+      "id": 3,
+      "title": "新闻条3新闻条3新闻条3",
+      "url": "http://overwatch.com"
+    },
+    {
+      "id": 4,
+      "title": "新闻条4广告发布",
+      "url": "http://hearstone.com"
+    }
+  ],
+  "login": {
+    "username": "yudongdong",
+    "userId": 123123
+  },
+  "getPrice": {
+    "amount": 678
+  },
+  "createOrder": {
+    "orderId": "6djk979"
+  },
+  "getOrderList": {
+    "list": [{
+        "orderId": "ddj123",
+        "product": "数据统计",
+        "version": "高级版",
+        "period": "1年",
+        "buyNum": 2,
+        "date": "2016-10-10",
+        "amount": "500元"
+      },
+      {
+        "orderId": "yuj583",
+        "product": "流量分析",
+        "version": "户外版",
+        "period": "3个月",
+        "buyNum": 1,
+        "date": "2016-5-2",
+        "amount": "2200元"
+      },
+      {
+        "orderId": "pmd201",
+        "product": "广告发布",
+        "version": "商铺版",
+        "period": "3年",
+        "buyNum": 12,
+        "date": "2016-8-3",
+        "amount": "7890元"
+      }
+    ]
+  },
+  "getBoardList": [{
+      "title": "开放产品",
+      "description": "开放产品是一款开放产品",
+      "id": "car",
+      "toKey": "analysis",
+      "saleout": false
+    },
+    {
+      "title": "品牌营销",
+      "description": "品牌营销帮助你的产品更好地找到定位",
+      "id": "earth",
+      "toKey": "count",
+      "saleout": false
+    },
+    {
+      "title": "使命必达",
+      "description": "使命必达快速迭代永远保持最前端的速度",
+      "id": "loud",
+      "toKey": "forecast",
+      "saleout": true
+    },
+    {
+      "title": "勇攀高峰",
+      "description": "帮你勇闯高峰，到达事业的顶峰",
+      "id": "hill",
+      "toKey": "publish",
+      "saleout": false
+    }
+  ],
+  "getProductList": {
+    "pc": {
+      "title": "PC产品",
+      "list": [{
+          "name": "数据统计",
+          "url": "http://starcraft.com"
+        },
+        {
+          "name": "数据预测",
+          "url": "http://warcraft.com"
+        },
+        {
+          "name": "流量分析",
+          "url": "http://overwatch.com",
+          "hot": true
+        },
+        {
+          "name": "广告发布",
+          "url": "http://hearstone.com"
+        }
+      ]
+    },
+    "app": {
+      "title": "手机应用类",
+      "last": true,
+      "list": [{
+          "name": "91助手",
+          "url": "http://weixin.com"
+        },
+        {
+          "name": "产品助手",
+          "url": "http://twitter.com",
+          "hot": true
+        },
+        {
+          "name": "智能地图",
+          "url": "http://maps.com"
+        },
+        {
+          "name": "团队语音",
+          "url": "http://phone.com"
+        }
+      ]
+    }
+  }
+}
